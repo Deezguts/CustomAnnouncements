@@ -1,0 +1,16 @@
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\obj\Debug\CustomAnnouncements.csproj.AssemblyReference.cache
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\obj\Debug\CustomAnnouncements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\obj\Debug\CustomAnnouncements.AssemblyInfoInputs.cache
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\obj\Debug\CustomAnnouncements.AssemblyInfo.cs
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\obj\Debug\CustomAnnouncements.csproj.CoreCompileInputs.cache
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\bin\Debug\CustomAnnouncements.dll
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\bin\Debug\CustomAnnouncements.pdb
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\bin\Debug\CustomAnnouncements.xml
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\bin\Debug\Mirror.dll
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\obj\Debug\CustomAnnouncements.csproj.CopyComplete
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\obj\Debug\CustomAnnouncements.dll
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\obj\Debug\CustomAnnouncements.xml
+C:\Users\acer\Downloads\CustomAnnouncements-1.3.0\CustomAnnouncements-1.3.0\CustomAnnouncements\obj\Debug\CustomAnnouncements.pdb

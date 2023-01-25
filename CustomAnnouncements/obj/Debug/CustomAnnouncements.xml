@@ -1,0 +1,557 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomAnnouncements</name>
+    </assembly>
+    <members>
+        <member name="T:CustomAnnouncements.Commands.CustomAnnouncementsCmd">
+            <summary>
+            A parent command to all commands which play or interact with announcements.
+            </summary>
+        </member>
+        <member name="M:CustomAnnouncements.Commands.CustomAnnouncementsCmd.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:CustomAnnouncements.Commands.CustomAnnouncementsCmd"/> class.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Commands.CustomAnnouncementsCmd.Command">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.CustomAnnouncementsCmd.Aliases">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.CustomAnnouncementsCmd.Description">
+            <inheritdoc />
+        </member>
+        <member name="M:CustomAnnouncements.Commands.CustomAnnouncementsCmd.LoadGeneratedCommands">
+            <inheritdoc />
+        </member>
+        <member name="M:CustomAnnouncements.Commands.CustomAnnouncementsCmd.ExecuteParent(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Commands.SubCommands.ChaosSpawn">
+            <summary>
+            A command to play the <see cref="T:CustomAnnouncements.Configs.ChaosSpawn"/> announcement.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.ChaosSpawn.Command">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.ChaosSpawn.Aliases">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.ChaosSpawn.Description">
+            <inheritdoc />
+        </member>
+        <member name="M:CustomAnnouncements.Commands.SubCommands.ChaosSpawn.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Commands.SubCommands.EscapeClassD">
+            <summary>
+            A command to play the <see cref="T:CustomAnnouncements.Configs.EscapeClassD"/> announcement.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.EscapeClassD.Command">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.EscapeClassD.Aliases">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.EscapeClassD.Description">
+            <inheritdoc />
+        </member>
+        <member name="M:CustomAnnouncements.Commands.SubCommands.EscapeClassD.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Commands.SubCommands.EscapeScientist">
+            <summary>
+            A command to play the <see cref="T:CustomAnnouncements.Configs.EscapeScientist"/> announcement.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.EscapeScientist.Command">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.EscapeScientist.Aliases">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.EscapeScientist.Description">
+            <inheritdoc/>
+        </member>
+        <member name="M:CustomAnnouncements.Commands.SubCommands.EscapeScientist.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Commands.SubCommands.FakeMtf">
+            <summary>
+            A command to play a faked MTF spawn.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.FakeMtf.Command">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.FakeMtf.Aliases">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.FakeMtf.Description">
+            <inheritdoc />
+        </member>
+        <member name="M:CustomAnnouncements.Commands.SubCommands.FakeMtf.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Commands.SubCommands.FakeScp">
+            <summary>
+            A command to play a fake SCP death.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.FakeScp.Command">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.FakeScp.Aliases">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.FakeScp.Description">
+            <inheritdoc />
+        </member>
+        <member name="M:CustomAnnouncements.Commands.SubCommands.FakeScp.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Commands.SubCommands.MtfSpawn">
+            <summary>
+            A command to play the <see cref="T:CustomAnnouncements.Configs.MtfSpawn"/> announcement.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.MtfSpawn.Command">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.MtfSpawn.Aliases">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.MtfSpawn.Description">
+            <inheritdoc />
+        </member>
+        <member name="M:CustomAnnouncements.Commands.SubCommands.MtfSpawn.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Commands.SubCommands.PlayerJoined">
+            <summary>
+            A command to play the <see cref="T:CustomAnnouncements.Configs.PlayerJoined"/> announcement.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.PlayerJoined.Command">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.PlayerJoined.Aliases">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.PlayerJoined.Description">
+            <inheritdoc />
+        </member>
+        <member name="M:CustomAnnouncements.Commands.SubCommands.PlayerJoined.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Commands.SubCommands.RoundEnd">
+            <summary>
+            A command to play the <see cref="T:CustomAnnouncements.Configs.RoundEnd"/> announcement.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.RoundEnd.Command">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.RoundEnd.Aliases">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.RoundEnd.Description">
+            <inheritdoc />
+        </member>
+        <member name="M:CustomAnnouncements.Commands.SubCommands.RoundEnd.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Commands.SubCommands.RoundStart">
+            <summary>
+            A command to play the <see cref="T:CustomAnnouncements.Configs.RoundStart"/> announcement.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.RoundStart.Command">
+            <inheritdoc/>
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.RoundStart.Aliases">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Commands.SubCommands.RoundStart.Description">
+            <inheritdoc />
+        </member>
+        <member name="M:CustomAnnouncements.Commands.SubCommands.RoundStart.Execute(System.ArraySegment{System.String},CommandSystem.ICommandSender,System.String@)">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Config">
+            <inheritdoc cref="T:Exiled.API.Interfaces.IConfig"/>
+        </member>
+        <member name="P:CustomAnnouncements.Config.IsEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Config.ChaosSpawn">
+            <summary>
+            Gets or sets the configs used when a chaos insurgency announcement is played.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Config.EscapeClassD">
+            <summary>
+            Gets or sets the configs used when a classd escape announcement is played.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Config.EscapeScientist">
+            <summary>
+            Gets or sets the configs used when a scientist escape announcement is played.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Config.MtfSpawn">
+            <summary>
+            Gets or sets the configs used when a MTF spawn announcement is played.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Config.PlayerJoined">
+            <summary>
+            Gets or sets the configs used when a player join announcement is played.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Config.RoundEnd">
+            <summary>
+            Gets or sets the configs used when a round end announcement is played.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Config.RoundStart">
+            <summary>
+            Gets or sets the configs used when a round start announcement is played.
+            </summary>
+        </member>
+        <member name="T:CustomAnnouncements.Configs.ChaosSpawn">
+            <inheritdoc cref="T:CustomAnnouncements.IAnnouncement"/>
+        </member>
+        <member name="P:CustomAnnouncements.Configs.ChaosSpawn.Message">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.ChaosSpawn.IsNoisy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.ChaosSpawn.IsGlitchy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.ChaosSpawn.GlitchChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.ChaosSpawn.JamChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.ChaosSpawn.Delay">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Configs.EscapeClassD">
+            <inheritdoc cref="T:CustomAnnouncements.IAnnouncement"/>
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeClassD.Message">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeClassD.IsNoisy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeClassD.IsGlitchy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeClassD.GlitchChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeClassD.JamChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeClassD.Delay">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeClassD.OnlyPlayFirst">
+            <summary>
+            Gets or sets a value indicating whether the announcement should only be played on the first escape.
+            </summary>
+        </member>
+        <member name="T:CustomAnnouncements.Configs.EscapeScientist">
+            <inheritdoc cref="T:CustomAnnouncements.IAnnouncement"/>
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeScientist.Message">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeScientist.IsNoisy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeScientist.IsGlitchy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeScientist.GlitchChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeScientist.JamChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeScientist.Delay">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.EscapeScientist.OnlyPlayFirst">
+            <summary>
+            Gets or sets a value indicating whether the announcement should only be played on the first escape.
+            </summary>
+        </member>
+        <member name="T:CustomAnnouncements.Configs.MtfSpawn">
+            <inheritdoc cref="T:CustomAnnouncements.IAnnouncement"/>
+        </member>
+        <member name="P:CustomAnnouncements.Configs.MtfSpawn.Message">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.MtfSpawn.IsNoisy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.MtfSpawn.IsGlitchy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.MtfSpawn.GlitchChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.MtfSpawn.JamChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.MtfSpawn.Delay">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Configs.PlayerJoined">
+            <inheritdoc cref="T:CustomAnnouncements.IAnnouncement"/>
+        </member>
+        <member name="P:CustomAnnouncements.Configs.PlayerJoined.Message">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.PlayerJoined.IsNoisy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.PlayerJoined.IsGlitchy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.PlayerJoined.GlitchChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.PlayerJoined.JamChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.PlayerJoined.Delay">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.PlayerJoined.UserIds">
+            <summary>
+            Gets or sets the collection of user ids which will trigger this announcement.
+            </summary>
+        </member>
+        <member name="T:CustomAnnouncements.Configs.RoundEnd">
+            <inheritdoc cref="T:CustomAnnouncements.IAnnouncement"/>
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundEnd.Message">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundEnd.MtfMessage">
+            <summary>
+            Gets or sets the broadcast played in a MTF victory.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundEnd.ChiMessage">
+            <summary>
+            Gets or sets the broadcast played in a CHI victory.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundEnd.ScpMessage">
+            <summary>
+            Gets or sets the broadcast played in a SCP victory.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundEnd.DrawMessage">
+            <summary>
+            Gets or sets the broadcast played in a draw.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundEnd.IsNoisy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundEnd.IsGlitchy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundEnd.GlitchChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundEnd.JamChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundEnd.Delay">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Configs.RoundStart">
+            <inheritdoc cref="T:CustomAnnouncements.IAnnouncement"/>
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundStart.Message">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundStart.IsNoisy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundStart.IsGlitchy">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundStart.GlitchChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundStart.JamChance">
+            <inheritdoc />
+        </member>
+        <member name="P:CustomAnnouncements.Configs.RoundStart.Delay">
+            <inheritdoc />
+        </member>
+        <member name="T:CustomAnnouncements.Extensions">
+            <summary>
+            Contains an assortment of various extension methods.
+            </summary>
+        </member>
+        <member name="M:CustomAnnouncements.Extensions.IsNullOrEmpty(CustomAnnouncements.IAnnouncement)">
+            <summary>
+            Returns a value which indicates whether the announcement's message is null or empty.
+            </summary>
+            <param name="announcement">The announcement to check.</param>
+            <returns>Whether the <see cref="P:CustomAnnouncements.IAnnouncement.Message"/> was null.</returns>
+        </member>
+        <member name="M:CustomAnnouncements.Extensions.ReplaceAfterToken(System.String,System.Char,System.Tuple{System.String,System.Object}[])">
+            <summary>
+            Optimized method that replaces a <see cref="T:System.String"/> based on an <see cref="T:System.Tuple`2"/>.
+            </summary>
+            <param name="source">The string to use as source.</param>
+            <param name="token">The starting token.</param>
+            <param name="valuePairs">The value pairs (tuples) to use as "key -> value".</param>
+            <returns>The string after replacement.</returns>
+        </member>
+        <member name="T:CustomAnnouncements.Handlers.MapHandlers">
+            <summary>
+            Contains methods which subscribe to events in <see cref="T:Exiled.Events.Handlers.Map"/>.
+            </summary>
+        </member>
+        <member name="M:CustomAnnouncements.Handlers.MapHandlers.#ctor(CustomAnnouncements.Plugin)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CustomAnnouncements.Handlers.MapHandlers"/> class.
+            </summary>
+            <param name="plugin">An instance of the <see cref="T:CustomAnnouncements.Plugin"/> class.</param>
+        </member>
+        <member name="M:CustomAnnouncements.Handlers.MapHandlers.OnAnnouncingNtfEntrance(Exiled.Events.EventArgs.Map.AnnouncingNtfEntranceEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Map.OnAnnouncingNtfEntrance(Exiled.Events.EventArgs.Map.AnnouncingNtfEntranceEventArgs)"/>
+        </member>
+        <member name="T:CustomAnnouncements.Handlers.PlayerHandlers">
+            <summary>
+            Contains methods which subscribe to events in <see cref="T:Exiled.Events.Handlers.Player"/>.
+            </summary>
+        </member>
+        <member name="M:CustomAnnouncements.Handlers.PlayerHandlers.#ctor(CustomAnnouncements.Plugin)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CustomAnnouncements.Handlers.PlayerHandlers"/> class.
+            </summary>
+            <param name="plugin">An instance of the <see cref="T:CustomAnnouncements.Plugin"/> class.</param>
+        </member>
+        <member name="M:CustomAnnouncements.Handlers.PlayerHandlers.OnVerified(Exiled.Events.EventArgs.Player.VerifiedEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Player.OnVerified(Exiled.Events.EventArgs.Player.VerifiedEventArgs)"/>
+        </member>
+        <member name="M:CustomAnnouncements.Handlers.PlayerHandlers.OnEscaping(Exiled.Events.EventArgs.Player.EscapingEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Player.OnEscaping(Exiled.Events.EventArgs.Player.EscapingEventArgs)"/>
+        </member>
+        <member name="T:CustomAnnouncements.Handlers.ServerHandlers">
+            <summary>
+            Contains methods which subscribe to events in <see cref="T:Exiled.Events.Handlers.Server"/>.
+            </summary>
+        </member>
+        <member name="M:CustomAnnouncements.Handlers.ServerHandlers.#ctor(CustomAnnouncements.Plugin)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CustomAnnouncements.Handlers.ServerHandlers"/> class.
+            </summary>
+            <param name="plugin">An instance of the <see cref="T:CustomAnnouncements.Plugin"/> class.</param>
+        </member>
+        <member name="M:CustomAnnouncements.Handlers.ServerHandlers.OnRespawningTeam(Exiled.Events.EventArgs.Server.RespawningTeamEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnRespawningTeam(Exiled.Events.EventArgs.Server.RespawningTeamEventArgs)"/>
+        </member>
+        <member name="M:CustomAnnouncements.Handlers.ServerHandlers.OnRoundEnded(Exiled.Events.EventArgs.Server.RoundEndedEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnRoundEnded(Exiled.Events.EventArgs.Server.RoundEndedEventArgs)"/>
+        </member>
+        <member name="M:CustomAnnouncements.Handlers.ServerHandlers.OnRoundStarted">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Server.OnRoundStarted"/>
+        </member>
+        <member name="T:CustomAnnouncements.IAnnouncement">
+            <summary>
+            Defines the contract for announcement configs.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.IAnnouncement.Message">
+            <summary>
+            Gets or sets the announcement to be played.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.IAnnouncement.IsNoisy">
+            <summary>
+            Gets or sets a value indicating whether the announcement will have background noise.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.IAnnouncement.IsGlitchy">
+            <summary>
+            Gets or sets a value indicating whether the announcement can contain glitches and jams.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.IAnnouncement.GlitchChance">
+            <summary>
+            Gets or sets the percentage chance that a glitch can occur.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.IAnnouncement.JamChance">
+            <summary>
+            Gets or sets the percentage chance that a jam can occur.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.IAnnouncement.Delay">
+            <summary>
+            Gets or sets the amount of seconds of delay from when the event fires to when the announcement will play.
+            </summary>
+        </member>
+        <member name="T:CustomAnnouncements.Methods">
+            <summary>
+            A collection of various methods utilized for abstraction.
+            </summary>
+        </member>
+        <member name="M:CustomAnnouncements.Methods.PlayAnnouncement(CustomAnnouncements.IAnnouncement,System.String)">
+            <summary>
+            Plays a CASSIE announcement based off of the configuration of a <see cref="T:CustomAnnouncements.IAnnouncement"/>.
+            </summary>
+            <param name="announcement">The announcement to play.</param>
+            <param name="overrideMessage">The message to override the <see cref="P:CustomAnnouncements.IAnnouncement.Message"/>. Ignored if null or empty.</param>
+        </member>
+        <member name="M:CustomAnnouncements.Methods.ViewOrPlay(CustomAnnouncements.IAnnouncement,System.String,System.String,System.String@)">
+            <summary>
+            Used for commands so that a user may view or play an <see cref="T:CustomAnnouncements.IAnnouncement"/> based off of the given arguments.
+            </summary>
+            <param name="announcement">The <see cref="T:CustomAnnouncements.IAnnouncement"/> to view or play.</param>
+            <param name="command">The command that the request originated from.</param>
+            <param name="argument">The player given request of action.</param>
+            <param name="response">The message to send back to the player.</param>
+            <returns>Whether the command executed successfully.</returns>
+        </member>
+        <member name="T:CustomAnnouncements.Plugin">
+            <summary>
+            The main plugin class.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Plugin.Instance">
+            <summary>
+            Gets a static instance of the <see cref="T:CustomAnnouncements.Plugin"/> class.
+            </summary>
+        </member>
+        <member name="P:CustomAnnouncements.Plugin.RequiredExiledVersion">
+            <inheritdoc />
+        </member>
+        <member name="M:CustomAnnouncements.Plugin.OnEnabled">
+            <inheritdoc />
+        </member>
+        <member name="M:CustomAnnouncements.Plugin.OnDisabled">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
