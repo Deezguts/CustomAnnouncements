@@ -1,3 +1,5 @@
+Note : THIS IS NOT AN ORIGINAL PLUGIN IDEA, THIS IS JUST AN UPDATED VERSION.
+
 # Custom Announcements
 - Requires [EXILED](https://github.com/galaxy119/EXILED/).
 - All C.A.S.S.I.E. acceptable words can be found [here](https://steamcommunity.com/sharedfiles/filedetails/?id=1577299753).
